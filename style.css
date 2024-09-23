@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #0c2d48;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+}
+
+.container h1{
+    font-size: 10vw;
+    background: linear-gradient(to right, white,rgba(60, 60, 189, 0.675),rgba(243, 65, 65, 0.829));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.container h2{
+    font-size: 3vw;
+    color: rgba(213, 224, 234, 0.816);
+}
+
+.prompt-area{
+    width: 100%;
+    height: 120px;
+    background: #0c2d48;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#prompt{
+    width: 60%;
+    height: 60%;
+    color: white;
+        border:  2px solid #8707ff;
+        border-radius: 30px 0px 0px 30px;
+        padding: 10px 25px;
+        background: transparent;
+
+}
+
+#btn{
+    width: 10%;
+    height: 60%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;  
+    cursor: pointer;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+#btn img{
+    height: 30px;
+    width: 30px;
+
+}
+
+.chat-container{
+    width: 100%;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.user-chatbox{
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    background: #083d6e;
+    border-radius: 30px 30px 30px 0px;
+    font-size: 20px;
+    box-shadow:  -10px 10px 12px #0a253b,
+             10px -10px 12px #0e3555;
+
+}
+.ai-chatbox{
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    background: #5d747b59;
+    border-radius: 30px 30px 0px 30px;
+    font-size: 20px;
+    box-shadow:  -10px -10px 12px #0a253b,
+             10px 10px 12px #0e3555;
+
+}
+
+.img{
+    width: 59px;
+    height: 100%;
+    margin-right: 20px;
+    
+}
+
+
+

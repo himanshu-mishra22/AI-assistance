@@ -3,7 +3,7 @@ let btn = document.querySelector("#btn");
 let mainContainer = document.querySelector(".container");
 let chatContainer = document.querySelector(".chat-container");
 let userMsg = null;
-let api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDlHwbYLZHT0y7KIlDobJIGTPkVkHE-dEQ`;
+let api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDES6U8ZQ0lJPZarUI5lXvl_EvdrjZTDIw`;
 
 
 btn.addEventListener('click',()=>{
